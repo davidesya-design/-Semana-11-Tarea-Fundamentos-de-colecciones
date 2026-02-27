@@ -1,5 +1,5 @@
 ﻿import os
-
+# Primer archivo y fundamental para todo el progrma
 from modelos.producto import Producto
 from servicios.inventarioservice import Inventario
 from persistencia.inventario_repo import InventarioRepository
@@ -93,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
